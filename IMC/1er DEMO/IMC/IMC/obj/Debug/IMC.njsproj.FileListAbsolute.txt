@@ -1,0 +1,3 @@
+C:\Users\Junior Jose\source\repos\IMC\IMC\obj\Debug\IMC.njsprojAssemblyReference.cache
+C:\Users\Junior Jose\source\repos\IMC\IMC\obj\Debug\IMC.njsproj.CoreCompileInputs.cache
+C:\Users\Junior Jose\source\repos\IMC\IMC\bin\Microsoft.NodejsTools.WebRole.dll
