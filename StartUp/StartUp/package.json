@@ -1,0 +1,10 @@
+{
+  "name": "start-up",
+  "version": "0.0.0",
+  "description": "StartUp",
+  "main": "server.js",
+    "author": {
+        "name": "Junior Jose Palomino Loa",
+        "email": "palominoloajunior@gmail.com";
+    }
+}

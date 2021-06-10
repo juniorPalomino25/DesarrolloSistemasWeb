@@ -1,0 +1,3 @@
+C:\Users\Junior Jose\OneDrive\Documentos\7MO CICLO\Desarrollo Sistemas Web\Proyectos\StartUp\StartUp\obj\Debug\StartUp.njsproj.AssemblyReference.cache
+C:\Users\Junior Jose\OneDrive\Documentos\7MO CICLO\Desarrollo Sistemas Web\Proyectos\StartUp\StartUp\obj\Debug\StartUp.njsproj.CoreCompileInputs.cache
+C:\Users\Junior Jose\OneDrive\Documentos\7MO CICLO\Desarrollo Sistemas Web\Proyectos\StartUp\StartUp\bin\Microsoft.NodejsTools.WebRole.dll
