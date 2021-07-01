@@ -73,12 +73,14 @@ ul, li {
 .menu1 {
     text-align: center;
     margin: 20px;
+    
 }
 
-.menu1 li {
-    display: inline-block;
-    text-align: center;
-}
+    .menu1 li {
+        display: inline-block;
+        text-align: center;
+        
+    }
 
     .menu1 li a {
         display: inline-block;

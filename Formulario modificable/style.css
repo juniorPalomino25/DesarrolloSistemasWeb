@@ -1,0 +1,46 @@
+﻿body {
+    background-image: url("imagen/fondo.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+.container {
+    border: solid;
+    margin: auto;
+    height: 660px;
+    width: 500px;
+    
+    background-image: url("imagen/fondoprincipal.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+.form-register {
+    background-color: white;
+    margin: auto;
+    height: 200px;
+    width: 400px;
+    border: solid;
+    font-size: inherit;
+}
+
+.footer {
+    background-color: white;
+    margin: auto;
+    height: 140px;
+    width: 400px;
+    border: solid;
+}
+.title {
+    background-color: black;
+    margin: auto;
+    height: 150px;
+    text-align:center;
+
+}
+
+.botons {
+    position: center;
+    margin-left: 150px;
+}
