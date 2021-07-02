@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="styles.css">
+  <title>LOGIN ADMINISTRADOR</title>
+</head>
+<body>
+    <div id="presenta">
+      <header id="margenSuperior">
+        <h1>Veterinaria "La casa de Boby"</h1>
+      </header>
+  
+        <div class="clearfix"></div>
+<div class="LoginAdmin">
+  <section class="form-register">
+    <h4>Login Administrador</h4>
+    <form  action="administrador\validarLoginAdministrador.php" method="POST">
+        Ingresar Email
+        <Input class="controls" name = "Email"  placeholder="Email" Type Text></P>
+        Ingresar Contraseña
+        <Input class="controls" name = "Contrasena"  placeholder="Contrasena" Type Text></P>
+        <Input class="botons" name= "Login" Type = Submit value = "Login">
+        </form>
+        <nav>
+          <ul>
+            <a href="administrador\ventanaRegistrarAdministrador.php">Registrar administrador</a>
+          </ul>
+        </nav>
+  </section>
+</div>
+<div class="LoginUsuario"></div>
+  <section class="form-register">
+    <h4>Login Usuario</h4>
+    <form  action="usuario\validarLoginUsuario.php" method="POST">
+        Ingresar Email
+        <Input class="controls" name = "Email"  placeholder="Email" Type Text></P>
+        Ingresar Contraseña
+        <Input class="controls" name = "Contrasena"  placeholder="Contrasena" Type Text></P>
+        <Input class="botons" name= "Login" Type = Submit value = "Login">
+        </form>
+        <nav>
+          <ul>
+            <a href="usuario\ventanaRegistrarUsuario.php">Registrar usuario</a>
+          </ul>
+        </nav>
+  </section>
+</div>
+
+  <footer class="footer">
+    <div class="redes">
+      <h1>Redes</h1>
+      <ul class="sociales">
+        <li><a href=""><img src="bxl-facebook-circle.svg" width="80" height="80"></a>
+        <li><a href=""><img src="bxl-youtube.svg" width="80" height="80"></a>
+      </ul>
+    </div>
+  </footer>
+
+</body>
+</html>

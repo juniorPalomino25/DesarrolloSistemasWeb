@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="estilosLateral.css">
+  <title>Formulario Registro Usuario</title>
+</head>
+<body>
+<div class="perfil">
+    <?php
+    session_start();
+      $Email = $_SESSION['Email'];
+    ?>
+</div>
+  <div id="presenta">
+    <header class="header">
+      <div class="container">
+      <div class="btn-menu">
+        <label for="btn-menu">☰</label>
+      </div>
+        <div class="logo">
+          <h1>Veterinaria "La casa de Boby"</h1>
+        </div>
+          <nav class="menu">
+          <a href=""> <?php echo $Email ?></a>
+          <a href="..\index.html">Salir</a>
+          </nav>
+        </div>
+    </header>
+    <div class="capa"></div>
+    <!--	--------------->
+    <input type="checkbox" id="btn-menu">
+    <div class="container-menu">
+      <div class="cont-menu">
+        <nav>
+          <a href="ventanaPrincipalAdministrador.php">Home</a>
+          <a href="ventanaRegistrarUsuario.php">Registrar usuario</a>
+          <a href="ventanaConsultarUsuario.php">Consultar usuarios</a>
+          <a href="ventanaConsultarTodosUsuarios.php">Consultar todo usuarios</a>
+          <a href="ventanaActualizarUsuario.php">Actualizar usuario</a>
+          <a href="ventanaEliminarUsuario.php">Eliminar usuario</a>
+        </nav>
+        <label for="btn-menu">✖️</label>
+      </div>
+    </div>
+  
+        <div class="clearfix"></div>
+  <section class="form-register">
+    <h4>Registrar nuevo usuario</h4>
+    <form  action="registrarUsuario.php" method="GET">
+        Sistema de Identificacion Persona</p>
+        Ingresar Email
+        <Input class="controls" name = "Email"  placeholder="Email" Type Text></P>
+        Ingresar Contraseña
+        <Input class="controls" name = "Contrasena"  placeholder="Contrasena" Type Text></P>
+        Ingresar DNI
+        <Input class="controls" name = "DNI"  placeholder="DNI" Type Text></P>
+        Ingresar Nombres
+        <Input class="controls" name = "Nombres" placeholder="Nombres" Type Text></P>
+        Ingresar Apellido Paterno
+        <Input class="controls" name = "ApellidoP" placeholder="ApellidoP" Type Text></P>
+        Ingresar Apellido Materno
+        <Input class="controls" name = "ApellidoM" placeholder="ApellidoM" Type Text></P>
+        Fecha de Nacimiento
+        <Input  class="controls" name= "FechNac" placeholder="FechNac" Type = "Date"></P>
+        Genero
+        <Select class="controls" placeholder="Genero" name = "Genero">
+          <Option value = "Masculino"> Masculino
+          <Option value = "Femenino"> Femenino
+        </Select></P>
+        <Input class="botons" name= "Registrar" Type = Submit value = "Registrar">
+        </form>
+  </section>
+
+</body>
+</html>
