@@ -6,7 +6,9 @@
 body{
     font-family: 'Fira Sans', sans-serif;
 }
-
+.root{
+    scroll-behavior: smooth;
+}
 .contenedor{
     width: 90%;
     max-width: 1200px;
@@ -17,14 +19,27 @@ body{
 
 header{
     height: 100vh;
-    background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), url(../img/tres.jpg), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
-    background-blend-mode: multiply,multiply;;
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%),  radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) rgb(152, 152, 152), url(../img/tres.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
 }
+.head{
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+}
 
-img.redimension {
-    max-width:50%;
-    max-height:50%;
-  }
+.menu{
+    position: fixed;
+    top: 30px;
+    right: 30px;
+    background: #fff;
+    width: 40px;
+    height: 40px;
+}
+
